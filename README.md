@@ -1,14 +1,6 @@
 
 # 🕵️‍♂️ Phishing Email Analysis Project
 
-## 📝 Description
-This project focuses on identifying and documenting **phishing indicators** in a suspicious email.  
-It demonstrates how to analyze email **headers** and **content** using freely available tools to detect spoofing, malicious links, and other red flags.  
-
-This can serve as a **cybersecurity training example** or part of a **Security Operations (SOC) analyst portfolio**.
-
----
-
 ## 🎯 Objective
 Identify phishing characteristics in a suspicious email sample by examining:
 - Header information (SPF, DKIM, DMARC, source IP, routing)
@@ -82,9 +74,7 @@ The email exhibits multiple **phishing indicators**, including:
 - [Google Admin Toolbox Messageheader](https://toolbox.googleapps.com/apps/messageheader/)  
 - [CISA Phishing Awareness Tips](https://www.cisa.gov/resources-tools/resources/stopthinkconnect-phishing-tips)
 
----
 
-## 🗂️ Suggested Repository Structure
 
 
 

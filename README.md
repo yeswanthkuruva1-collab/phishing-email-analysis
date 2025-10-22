@@ -33,11 +33,11 @@ Identify phishing characteristics in a suspicious email sample by examining:
 
 | Parameter | Observation | Indicator |
 |------------|--------------|------------|
-| **SPF** | Failed – sending domain not authorized | ⚠️ Spoofing risk |
-| **DKIM** | Not signed | ⚠️ Missing integrity verification |
-| **DMARC** | None | ⚠️ No domain policy enforcement |
-| **Return-Path** | reply-to: help@phishmail.ru | ⚠️ Mismatch with sender domain |
-| **Received From IP** | 185.123.45.67 (Blacklisted in Spamhaus) | ⚠️ Known malicious source |
+| **SPF** | Failed – sending domain not authorized |  Spoofing risk |
+| **DKIM** | Not signed |  Missing integrity verification |
+| **DMARC** | None |  No domain policy enforcement |
+| **Return-Path** | reply-to: help@phishmail.ru |  Mismatch with sender domain |
+| **Received From IP** | 185.123.45.67 (Blacklisted in Spamhaus) |  Known malicious source |
 
 ---
 
@@ -61,7 +61,7 @@ The email exhibits multiple **phishing indicators**, including:
 - Suspicious external URLs  
 - Generic greeting and grammatical mistakes  
 
-**Assessment:** 🔴 **High likelihood of phishing attempt**  
+**Assessment: High likelihood of phishing attempt**  
 **Recommendation:**  
 - Do **not** click links or download attachments  
 - **Report** and **delete** the email  

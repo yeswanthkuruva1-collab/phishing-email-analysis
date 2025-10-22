@@ -60,8 +60,7 @@ The email exhibits multiple **phishing indicators**, including:
 - Urgent and manipulative language  
 - Suspicious external URLs  
 - Generic greeting and grammatical mistakes  
-
-**Assessment: High likelihood of phishing attempt**  
+  
 **Recommendation:**  
 - Do **not** click links or download attachments  
 - **Report** and **delete** the email  

@@ -1,26 +1,15 @@
-# 🕵️‍♂️ Phishing Email Analysis Project
-
-## 📝 Description
-This project focuses on identifying and documenting **phishing indicators** in a suspicious email.  
-It demonstrates how to analyze email **headers** and **content** using freely available tools to detect spoofing, malicious links, and other red flags.  
-
-This can serve as a **cybersecurity training example** or part of a **Security Operations (SOC) analyst portfolio**.
-
----
+# 🕵️‍♂️ Phishing Email Analysis Report
 
 ## 🎯 Objective
-Identify phishing characteristics in a suspicious email sample by examining:
-- Header information (SPF, DKIM, DMARC, source IP, routing)
-- Message content (tone, links, sender identity, grammar)
+Identify and document phishing characteristics in a suspicious email sample by examining its content and headers.
 
 ---
 
 ## 🧰 Tools Used
-- **Email Client / Saved Email File** – for viewing raw email source and metadata  
-- **Free Online Header Analyzers:**
-  - [MxToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
+- **Email Client / Saved Email File** – for viewing the raw message and metadata  
+- **Free Online Header Analyzer** – to inspect email routing and authentication  
+  - [MxToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)  
   - [Google Admin Toolbox Messageheader](https://toolbox.googleapps.com/apps/messageheader/)
-- **Optional:** Spamhaus IP Lookup, VirusTotal URL Scanner
 
 ---
 
@@ -40,7 +29,7 @@ Identify phishing characteristics in a suspicious email sample by examining:
 
 | Parameter | Observation | Indicator |
 |------------|--------------|------------|
-| **SPF** | Failed – sending domain not authorized | ⚠️ Spoofing risk |
+| **SPF** | Failed – sending domain not authorized | ⚠️ Suspicious (spoofing risk) |
 | **DKIM** | Not signed | ⚠️ Missing integrity verification |
 | **DMARC** | None | ⚠️ No domain policy enforcement |
 | **Return-Path** | reply-to: help@phishmail.ru | ⚠️ Mismatch with sender domain |
@@ -61,27 +50,25 @@ Identify phishing characteristics in a suspicious email sample by examining:
 ---
 
 ## ✅ 4. Conclusion
-The email exhibits multiple **phishing indicators**, including:
-- Failed SPF/DKIM/DMARC checks  
+The analyzed email shows multiple **phishing indicators**, including:
+- Failed SPF/DKIM/DMARC authentication  
 - Sender domain spoofing  
-- Urgent and manipulative language  
-- Suspicious external URLs  
-- Generic greeting and grammatical mistakes  
+- Urgent, fear-based language  
+- Suspicious URLs  
+- Generic greeting and grammatical errors  
 
-**Assessment:** 🔴 **High likelihood of phishing attempt**  
-**Recommendation:**  
-- Do **not** click links or download attachments  
-- **Report** and **delete** the email  
-- Consider **blocking sender domain** and updating spam filters
+**Assessment:** 🔴 High likelihood of phishing attempt.  
+**Recommendation:** Do **not** click any links or download attachments. Report and delete the message.
 
 ---
 
 ## 📚 5. References
 - [MxToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)  
 - [Google Admin Toolbox Messageheader](https://toolbox.googleapps.com/apps/messageheader/)  
-- [CISA Phishing Awareness Tips](https://www.cisa.gov/resources-tools/resources/stopthinkconnect-phishing-tips)
+- [CISA Phishing Guidance](https://www.cisa.gov/resources-tools/resources/stopthinkconnect-phishing-tips)
 
 ---
 
-## 🗂️ Suggested Repository Structure
+### 🗂️ Suggested Repository Structure
+
 

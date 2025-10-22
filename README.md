@@ -1,14 +1,14 @@
 
 # 🕵️‍♂️ Phishing Email Analysis Project
 
-## 🎯 Objective
+##  Objective
 Identify phishing characteristics in a suspicious email sample by examining:
 - Header information (SPF, DKIM, DMARC, source IP, routing)
 - Message content (tone, links, sender identity, grammar)
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 - **Email Client / Saved Email File** – for viewing raw email source and metadata  
 - **Free Online Header Analyzers:**
   - [MxToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)
@@ -17,7 +17,7 @@ Identify phishing characteristics in a suspicious email sample by examining:
 
 ---
 
-## 📧 1. Email Overview
+##  1. Email Overview
 | Field | Detail |
 |--------|---------|
 | **Subject** | Important: Verify your account immediately |
@@ -28,7 +28,7 @@ Identify phishing characteristics in a suspicious email sample by examining:
 
 ---
 
-## 🧾 2. Header Analysis
+##  2. Header Analysis
 **Key Findings from Header Analyzer:**
 
 | Parameter | Observation | Indicator |
@@ -41,7 +41,7 @@ Identify phishing characteristics in a suspicious email sample by examining:
 
 ---
 
-## 🧠 3. Content Analysis
+##  3. Content Analysis
 | Indicator | Example / Observation | Why It’s Suspicious |
 |------------|------------------------|----------------------|
 | **Urgent Call to Action** | "Verify your account immediately to avoid suspension." | Creates panic to prompt hasty action |
@@ -53,7 +53,7 @@ Identify phishing characteristics in a suspicious email sample by examining:
 
 ---
 
-## ✅ 4. Conclusion
+##  4. Conclusion
 The email exhibits multiple **phishing indicators**, including:
 - Failed SPF/DKIM/DMARC checks  
 - Sender domain spoofing  
@@ -69,7 +69,7 @@ The email exhibits multiple **phishing indicators**, including:
 
 ---
 
-## 📚 5. References
+##  5. References
 - [MxToolbox Email Header Analyzer](https://mxtoolbox.com/EmailHeaders.aspx)  
 - [Google Admin Toolbox Messageheader](https://toolbox.googleapps.com/apps/messageheader/)  
 - [CISA Phishing Awareness Tips](https://www.cisa.gov/resources-tools/resources/stopthinkconnect-phishing-tips)
